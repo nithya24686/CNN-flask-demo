@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <a href="dboss.html">dboss</a>
 </head>
 <body>
     <h1>hello {{name}}</h1>
+    <!--to take the image from the static folder-->
+    <img width="200" height="200" src="{{url_for('static', filename=image)}}" alt="no image">
 </body>
 </html>
